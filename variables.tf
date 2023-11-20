@@ -1,7 +1,7 @@
 variable "ec2_ami" {
-  description = "Ec2 AMI id"
+  description = "Ec2 AMI Ubuntu id"
   type        = string
-  default     = "ami-0a485299eeb98b979"
+  default     = "ami-06dd92ecc74fdfb36"
 }
 
 variable "instance_name" {
